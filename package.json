@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ita-social-projects/what-front.git"
+    "url": "https://github.com/ITA-Dnipro/what-front"
   },
   "bugs": {
-    "url": "https://github.com/ita-social-projects/what-front/issues"
+    "url": "https://github.com/ITA-Dnipro/what-front/issues"
   },
-  "homepage": "https://github.com/ita-social-projects/what-front",
+  "homepage": "https://github.com/ITA-Dnipro/what-front",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
