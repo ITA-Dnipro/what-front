@@ -4,7 +4,7 @@
   "description": "see README.md to find more information",
   "license": "MIT",
   "author": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js"
