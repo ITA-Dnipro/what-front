@@ -29,6 +29,7 @@ jobs:
         npm install
         npm run build --if-present
         npm run test --if-present
+      working-directory: ./src
 
 #     - name: Upload artifact for deployment job
 #       uses: actions/upload-artifact@v2
@@ -54,4 +55,4 @@ jobs:
         app-name: 'whoisabsenttoday'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_d6d354b276d54421997f146af15dd112 }}
-        package: /home/runner/work/what-front/what-front/dist
+        package: .
